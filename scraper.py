@@ -20,7 +20,7 @@ class Scraper:
     def __init__(self):
         self.all_links = []
         self.titles = []
-        self.url = 'https://www.1tamilmv.eu/'
+        self.url = 'https://www.1tamilmv.tw/'
         Thread(target=self.begin).start()
         self.app = Flask(__name__)
         self.port = int(os.environ.get("PORT", 8000))
